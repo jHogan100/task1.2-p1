@@ -1,0 +1,21 @@
+.left {
+    background-color: lightgray;
+    
+    float: left;
+    width: 50%; 
+  }
+
+.right {
+    background-color: darkgray;
+
+    float: right;
+    width: 50%;
+}
+* {
+    box-sizing: border-box;
+}
+@media screen and (max-width: 600px) {
+    .red, .green{
+      width: 100%;
+    }
+}
